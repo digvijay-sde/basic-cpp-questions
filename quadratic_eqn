@@ -1,0 +1,47 @@
+#include<iostream>
+using namespace std;
+#include <cmath>;
+
+
+int main(){
+    int a,b,c,D;
+    cout<<"enter coeffcients"<<endl;
+    cin>>a>>b>>c;
+    D=b*b-(4*a*c);
+    float alpha;
+    float beta;
+    alpha= ((-b)+ sqrt(D))/(2*a);
+    beta= ((-b)- sqrt(D))/(2*a);
+    cout<<alpha<<beta<<endl;
+    return 0;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
